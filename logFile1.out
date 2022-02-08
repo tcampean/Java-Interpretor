@@ -1,0 +1,2227 @@
+
+Program State 
+Execution Stack = [v = 2 ; print(v), integer v]
+Symbol Table = {}
+Output = []
+Initial program = integer v ; v = 2 ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [v = 2 ; print(v)]
+Symbol Table = {v=0}
+Output = []
+Initial program = integer v ; v = 2 ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [print(v), v = 2]
+Symbol Table = {v=0}
+Output = []
+Initial program = integer v ; v = 2 ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [print(v)]
+Symbol Table = {v=2}
+Output = []
+Initial program = integer v ; v = 2 ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = []
+Symbol Table = {v=2}
+Output = [2]
+Initial program = integer v ; v = 2 ; print(v)
+File table = {}
+
+ID =-1
+Program State 
+Execution Stack = 
+integer v
+v = 2
+print(v)
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+integer v
+v = 2
+print(v)
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+integer v
+v = 2
+print(v)
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+integer v
+v = 2
+print(v)
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+integer v
+v = 2
+print(v)
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 2
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+integer v ; v = 2 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+

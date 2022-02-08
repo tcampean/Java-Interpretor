@@ -1,0 +1,315 @@
+
+Program State 
+Execution Stack = [integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v), boolean a]
+Symbol Table = {}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)]
+Symbol Table = {a=True}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v), integer v]
+Symbol Table = {a=True}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)]
+Symbol Table = {a=True, v=0}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [(IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v), a = True]
+Symbol Table = {a=True, v=0}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [(IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)]
+Symbol Table = {a=True, v=0}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [print(v), (IF(a) THEN(v = 2)ELSE(v = 3))]
+Symbol Table = {a=True, v=0}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [print(v), v = 2]
+Symbol Table = {a=True, v=0}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = [print(v)]
+Symbol Table = {a=True, v=2}
+Output = []
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+
+Program State 
+Execution Stack = []
+Symbol Table = {a=True, v=2}
+Output = [2]
+Initial program = boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+File table = {}
+
+ID =1
+Program State 
+Execution Stack = 
+integer v
+a = True
+(IF(a) THEN(v = 2)ELSE(v = 3))
+print(v)
+boolean a
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer v
+a = True
+(IF(a) THEN(v = 2)ELSE(v = 3))
+print(v)
+
+
+Symbol Table = 
+a=True
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = True
+(IF(a) THEN(v = 2)ELSE(v = 3))
+print(v)
+integer v
+
+Symbol Table = 
+a=True
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = True
+(IF(a) THEN(v = 2)ELSE(v = 3))
+print(v)
+
+
+Symbol Table = 
+a=True
+v=0
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(IF(a) THEN(v = 2)ELSE(v = 3))
+print(v)
+a = True
+
+Symbol Table = 
+a=True
+v=0
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(IF(a) THEN(v = 2)ELSE(v = 3))
+print(v)
+
+
+Symbol Table = 
+a=True
+v=0
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)(IF(a) THEN(v = 2)ELSE(v = 3))
+
+Symbol Table = 
+a=True
+v=0
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)v = 2
+
+Symbol Table = 
+a=True
+v=0
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+a=True
+v=2
+
+
+Output = 
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=True
+v=2
+
+
+Output = 
+2
+
+
+Initial program = 
+boolean a ; integer v ; a = True ; (IF(a) THEN(v = 2)ELSE(v = 3)) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+

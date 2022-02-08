@@ -1,0 +1,3006 @@
+ID =-1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+fork(print(v))v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+fork(print(v))
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =-1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(print(v))v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(print(v))
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(print(v))v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(print(v))
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(print(v))
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(print(v))v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(print(v))
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+
+
+Initial program = 
+print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+fork(v = 10 ; print(v))
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = 10
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)v = 10
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+20
+10
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v))
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+fork(v = 10 ; print(v))
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = 10
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)v = 10
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+20
+10
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v)) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = 10
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+v = 10
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = 10
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+print(v)
+
+Symbol Table = 
+v=10
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+v = 10
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+10
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+10
+20
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+print(v)
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+  
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+  
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = 10
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+fork(v = 10 ; print(v) ;   ;   ;   ;  )
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+v = 10
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(v)
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = 10
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+print(v)
+
+Symbol Table = 
+v=10
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+v = 10
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+10
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=20
+
+
+Output = 
+20
+10
+20
+
+
+Initial program = 
+integer v ; v = 20 ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; fork(v = 10 ; print(v) ;   ;   ;   ;  ) ; print(v) ; print(v)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+print(v)
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+  
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+ 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+  
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+ 
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+20
+10
+20
+10
+
+
+Initial program = 
+v = 10 ; print(v) ;   ;   ;   ;  
+
+File table = 
+
+
+Heap = 
+{}
+

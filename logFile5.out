@@ -1,0 +1,2081 @@
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Model.Value.RefValue@3eb07fd3
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Model.Value.RefValue@3eb07fd3
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Model.Value.RefValue@3eb07fd3
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Model.Value.RefValue@3eb07fd3
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+Ref(Ref(integer)) a
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+Ref(Ref(integer)) a
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+new(a, v)
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)print(v)
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+Ref(integer)
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+Ref(integer)
+Ref(Ref(integer))
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+Ref(Ref(integer)) a
+
+Symbol Table = 
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+new(a, v)
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)print(v)
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+Ref(integer)
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=Ref(Ref(integer))
+v=Ref(integer)
+
+
+Output = 
+Ref(integer)
+Ref(Ref(integer))
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(integer)}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=Ref(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=Ref(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+Ref(Ref(integer)) a
+
+Symbol Table = 
+v=Ref(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=Ref(0, Ref(integer))
+v=Ref(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+new(a, v)
+
+Symbol Table = 
+a=Ref(0, Ref(integer))
+v=Ref(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=Ref(2, Ref(integer))
+v=Ref(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(1, integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)print(v)
+
+Symbol Table = 
+a=Ref(2, Ref(integer))
+v=Ref(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(1, integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)
+
+Symbol Table = 
+a=Ref(2, Ref(integer))
+v=Ref(1, integer)
+
+
+Output = 
+Ref(1, integer)
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(1, integer)}
+
+
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=Ref(2, Ref(integer))
+v=Ref(1, integer)
+
+
+Output = 
+Ref(1, integer)
+Ref(2, Ref(integer))
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=Ref(1, integer)}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+Ref(Ref(integer)) a
+
+Symbol Table = 
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=(0, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+new(a, v)
+
+Symbol Table = 
+a=(0, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)print(v)
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+(1, integer)
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+(1, integer)
+(2, Ref(integer))
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+Ref(Ref(integer)) a
+
+Symbol Table = 
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=(0, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+new(a, v)
+
+Symbol Table = 
+a=(0, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)print(v)
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+
+Program State 
+Execution Stack = 
+print(a)
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+(1, integer)
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+(1, integer)
+(2, Ref(integer))
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+Ref(integer) v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v, 20)
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+new(v, 20)
+
+Symbol Table = 
+v=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+Ref(Ref(integer)) a
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+ID =1
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+Ref(Ref(integer)) a
+
+Symbol Table = 
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+ID =1
+Program State 
+Execution Stack = 
+new(a, v)
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=(0, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+new(a, v)
+
+Symbol Table = 
+a=(0, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v)
+print(a)
+
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+ID =1
+Program State 
+Execution Stack = 
+print(a)print(v)
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+ID =1
+Program State 
+Execution Stack = 
+print(a)
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+(1, integer)
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=(2, Ref(integer))
+v=(1, integer)
+
+
+Output = 
+(1, integer)
+(2, Ref(integer))
+
+
+Initial program = 
+Ref(integer) v ; new(v, 20) ; Ref(Ref(integer)) a ; new(a, v) ; print(v) ; print(a)
+
+File table = 
+
+
+Heap = 
+{1=20, 2=(1, integer)}
+

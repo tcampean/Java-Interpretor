@@ -1,0 +1,462 @@
+
+Program State 
+Execution Stack = 
+varf = test.in
+OpenRFile( varf )
+integer varc
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+string varf
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+
+
+
+Program State 
+Execution Stack = 
+varf = test.in
+OpenRFile( varf )
+integer varc
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+
+
+
+Program State 
+Execution Stack = 
+OpenRFile( varf )
+integer varc
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+varf = test.in
+
+Symbol Table = 
+varf=
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+
+
+
+Program State 
+Execution Stack = 
+OpenRFile( varf )
+integer varc
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=test.in
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+
+
+
+Program State 
+Execution Stack = 
+integer varc
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+OpenRFile( varf )
+
+Symbol Table = 
+varf=test.in
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+
+
+
+Program State 
+Execution Stack = 
+integer varc
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=test.in
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+integer varc
+
+Symbol Table = 
+varf=test.in
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+varc = 0
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=test.in
+varc=0
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+varc = 0
+
+Symbol Table = 
+varf=test.in
+varc=0
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+ReadFile( varf )
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=test.in
+varc=0
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+ReadFile( varf )
+
+Symbol Table = 
+varf=test.in
+varc=0
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+print(varc)
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=test.in
+varc=15
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+print(varc)
+
+Symbol Table = 
+varf=test.in
+varc=15
+
+
+Output = 
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+ReadFile( varf )
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=test.in
+varc=15
+
+
+Output = 
+15
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+print(varc)
+CloseRFile( varf )
+ReadFile( varf )
+
+Symbol Table = 
+varf=test.in
+varc=15
+
+
+Output = 
+15
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+print(varc)
+CloseRFile( varf )
+
+
+Symbol Table = 
+varf=test.in
+varc=50
+
+
+Output = 
+15
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+CloseRFile( varf )print(varc)
+
+Symbol Table = 
+varf=test.in
+varc=50
+
+
+Output = 
+15
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+CloseRFile( varf )
+
+Symbol Table = 
+varf=test.in
+varc=50
+
+
+Output = 
+15
+50
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+test.in
+
+
+
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+varf=test.in
+varc=50
+
+
+Output = 
+15
+50
+
+
+Initial program = 
+string varf ; varf = test.in ; OpenRFile( varf ) ; integer varc ; varc = 0 ; ReadFile( varf ) ; print(varc) ; ReadFile( varf ) ; print(varc) ; CloseRFile( varf )
+
+File table = 
+
+

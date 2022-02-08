@@ -1,0 +1,9430 @@
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+300
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+300
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+300
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+300
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+300
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v1
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+Ref(integer) v1
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v2
+Ref(integer) v3
+
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3Ref(integer) v2
+
+Symbol Table = 
+v1=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+Ref(integer) v3
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v1, 2)
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v1, 2)
+
+Symbol Table = 
+v1=(0, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v2, 3)
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+new(v2, 3)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(0, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+new(v3, 4)
+NewBarrierStmt(cnt, rH(v2))
+
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))new(v3, 4)
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(0, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+NewBarrierStmt(cnt, rH(v2))
+
+Symbol Table = 
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2)))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+Await(cnt)
+print(rH(v3))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+Await(cnt)
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))Await(cnt)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+wH(v1, rH(v1)*10)
+print(rH(v1))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+print(rH(v3))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))wH(v1, rH(v1)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=2, 2=3, 3=4}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Ref(integer) v1 ; Ref(integer) v2 ; Ref(integer) v3 ; new(v1, 2) ; new(v2, 3) ; new(v3, 4) ; NewBarrierStmt(cnt, rH(v2)) ; fork(Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))) ; fork(Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))) ; Await(cnt) ; print(rH(v3))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+print(rH(v1))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+wH(v2, rH(v2)*10)
+print(rH(v2))
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v1, rH(v1)*10) ; print(rH(v1))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))wH(v2, rH(v2)*10)
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=30, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+print(rH(v2))
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+cnt=0
+v1=(1, integer)
+v2=(2, integer)
+v3=(3, integer)
+
+
+Output = 
+4
+20
+300
+
+
+Initial program = 
+Await(cnt) ; wH(v2, rH(v2)*10) ; wH(v2, rH(v2)*10) ; print(rH(v2))
+
+File table = 
+
+
+Heap = 
+{1=20, 2=300, 3=4}
+

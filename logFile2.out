@@ -1,0 +1,924 @@
+
+Program State 
+Execution Stack = [integer b ; a = 2+3*5 ; b = a+1 ; print(b), integer a]
+Symbol Table = {}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = [integer b ; a = 2+3*5 ; b = a+1 ; print(b)]
+Symbol Table = {a=0}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = [a = 2+3*5 ; b = a+1 ; print(b), integer b]
+Symbol Table = {a=0}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = [a = 2+3*5 ; b = a+1 ; print(b)]
+Symbol Table = {a=0, b=0}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = [b = a+1 ; print(b), a = 2+3*5]
+Symbol Table = {a=0, b=0}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = [b = a+1 ; print(b)]
+Symbol Table = {a=17, b=0}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = [print(b), b = a+1]
+Symbol Table = {a=17, b=0}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = [print(b)]
+Symbol Table = {a=17, b=18}
+Output = []
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+
+Program State 
+Execution Stack = []
+Symbol Table = {a=17, b=18}
+Output = [18]
+Initial program = integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+File table = {}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+integer a
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+integer b
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+a = 2+3*5
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)b = a+1
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+18
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+integer a
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+integer b
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+a = 2+3*5
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)b = a+1
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+18
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+integer a
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+integer b
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+a = 2+3*5
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)b = a+1
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+18
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+integer a
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer b
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+integer b
+
+Symbol Table = 
+a=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+a = 2+3*5
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+a = 2+3*5
+
+Symbol Table = 
+a=0
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+b = a+1
+print(b)
+
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)b = a+1
+
+Symbol Table = 
+a=17
+b=0
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(b)
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+a=17
+b=18
+
+
+Output = 
+18
+
+
+Initial program = 
+integer a ; integer b ; a = 2+3*5 ; b = a+1 ; print(b)
+
+File table = 
+
+
+Heap = 
+{}
+

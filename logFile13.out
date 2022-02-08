@@ -1,0 +1,11349 @@
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+y = 3
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@756a91c3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+y = 3
+
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+y = 3
+x = 1
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+y = 3
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+y = 3
+ 
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+y = 3
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+y = 3
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3 
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; y = 3
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(Model.Expressions.NegationExpression@4993a25f) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+x = 1
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+ 
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+y = 3
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10) 
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10)
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+40
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+x = 1
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+ 
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+y = 3
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10) 
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10)
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+40
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+x = 1
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+ 
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+y = 3
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10) 
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10)
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+40
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+x = 1
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+ 
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+y = 3
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10) 
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10)
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+40
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+x = 1
+
+Symbol Table = 
+v=4
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =5
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+ 
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+y = 3
+
+Symbol Table = 
+v=4
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10) 
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10)
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=4
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+3
+40
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+fork(print(v) ; v = v-1)
+v = v+1
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+x = 1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+ 
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+y = 3
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10) 
+
+Symbol Table = 
+v=3
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10)
+
+Symbol Table = 
+v=3
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=3
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+30
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer x
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer x
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+integer y
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+integer y
+
+Symbol Table = 
+v=0
+x=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+v = 0
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =2
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=-1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)fork(print(v) ; v = v-1)
+v = v+1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)v = v+1fork(print(v) ; v = v-1)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =3
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=0
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+print(v)
+v = v-1
+
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+(while(!v == 3) fork(print(v) ; v = v-1) ; v = v+1)
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1print(v)
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+x = 1
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+v = v-1
+
+Symbol Table = 
+v=2
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+x = 1
+
+Symbol Table = 
+v=3
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =4
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=1
+x=0
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+print(v) ; v = v-1
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+ 
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+y = 3
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+y = 3
+
+Symbol Table = 
+v=3
+x=1
+y=0
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+ 
+print(v*10)
+
+
+Symbol Table = 
+v=3
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10) 
+
+Symbol Table = 
+v=3
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+print(v*10)
+
+Symbol Table = 
+v=3
+x=1
+y=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; integer x ; integer y ; v = 0 ; repeat(fork(print(v) ; v = v-1) ; v = v+1) until(v == 3) ; x = 1 ;   ; y = 3 ;   ; print(v*10)
+
+File table = 
+
+
+Heap = 
+{}
+

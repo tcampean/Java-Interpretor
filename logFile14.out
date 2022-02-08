@@ -1,0 +1,1857 @@
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+5)print(v))integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+5)print(v))
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+(while(v <= 5) print(v) ; v = v+5)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)v = 0
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)print(v)
+v = v+5
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)v = v+5print(v)
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)v = v+5
+
+Symbol Table = 
+v=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)print(v)
+v = v+5
+
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)v = v+5print(v)
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)v = v+5
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+5)
+
+Symbol Table = 
+v=10
+
+
+Output = 
+0
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=10
+
+
+Output = 
+0
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+5)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+1)print(v))integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+1)print(v))
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+(while(v <= 5) print(v) ; v = v+1)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = 0
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+1)print(v))integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+1)print(v))
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+(while(v <= 5) print(v) ; v = v+1)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = 0
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=6
+
+
+Output = 
+0
+1
+2
+3
+4
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=6
+
+
+Output = 
+0
+1
+2
+3
+4
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+1)print(v))integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(for(v = 0;v <= 5;v = v+1)print(v))
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 0
+(while(v <= 5) print(v) ; v = v+1)
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = 0
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=0
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=1
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=2
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=3
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=4
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)print(v)
+v = v+1
+
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1print(v)
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)v = v+1
+
+Symbol Table = 
+v=5
+
+
+Output = 
+0
+1
+2
+3
+4
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+(while(v <= 5) print(v) ; v = v+1)
+
+Symbol Table = 
+v=6
+
+
+Output = 
+0
+1
+2
+3
+4
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=6
+
+
+Output = 
+0
+1
+2
+3
+4
+5
+
+
+Initial program = 
+integer v ; (for(v = 0;v <= 5;v = v+1)print(v))
+
+File table = 
+
+
+Heap = 
+{}
+

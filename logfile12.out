@@ -1,0 +1,108 @@
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+v = ( 10 < 20 ) ? 56:67
+integer v
+
+Symbol Table = 
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; v = ( 10 < 20 ) ? 56:67
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = 20
+v = ( 10 < 20 ) ? 56:67
+
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; v = ( 10 < 20 ) ? 56:67
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = ( 10 < 20 ) ? 56:67v = 20
+
+Symbol Table = 
+v=0
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; v = ( 10 < 20 ) ? 56:67
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+v = ( 10 < 20 ) ? 56:67
+
+Symbol Table = 
+v=20
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; v = ( 10 < 20 ) ? 56:67
+
+File table = 
+
+
+Heap = 
+{}
+
+ID =1
+Program State 
+Execution Stack = 
+
+
+Symbol Table = 
+v=56
+
+
+Output = 
+
+
+Initial program = 
+integer v ; v = 20 ; v = ( 10 < 20 ) ? 56:67
+
+File table = 
+
+
+Heap = 
+{}
+
