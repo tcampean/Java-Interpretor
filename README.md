@@ -1,6 +1,6 @@
-# Toy-Language-Interpretor
+# Toy-Language-Interpreter
 
-An interpretor made in Java for a custom programming language
+An interpreter made in Java for a custom programming language
 
 Provides a GUI with step-by-step execution
 
